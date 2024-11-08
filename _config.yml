@@ -59,12 +59,15 @@ collections:
   others:
     output: true
     permalink: /:collection/:path/
-  projects:
+  categories:
+    output: true
+    permalink: /:collection/:path/
+  bring:
     output: true
     permalink: /:collection/:path/
 
 ordered_collections:
-  - projects
+  - categories
   - posts
   - pages
   - others

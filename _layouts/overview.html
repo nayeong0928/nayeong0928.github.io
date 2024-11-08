@@ -53,6 +53,8 @@
                                             <h1 id="{{ page.id }}">{{ site.title | escape }}</h1>
                                         {% endif %}
 
+                                        {{ content }}
+
                                         <ul>
                                             {% for item in site[page.collection_name] %}
                                                 <li>
